@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>System Silver</title>
+</head>
+<body>
+    
+    <header>
+        <div class="header_container">
+            <div class="logo">
+                <i class="fas fa-spinner"></i>
+                <div class="s">S</div>
+                <div>
+                    <span>YSTEM</span>
+                    <span>ILVER</span>
+                </div>
+            </div>
+            <nav class="navigation">
+                <a href="#home" class="nav_item">HOME</a>
+                <a href="#empresa" class="nav_item">EMPRESA</a>
+                <a href="#servicos" class="nav_item">SERVIÇOS</a>
+                <a href="#faq" class="nav_item">FAQ</a>
+            </nav>
+            <a href="#contato"><div class="contact"> <i class="fas fa-envelope me-2"></i>CONTATO</div></a>
+            <i class="bars fas fa-bars" onclick="openMenu()"></i>
+        </div>
+    </header>
+    
+        
+    <section id="home" class="hero_section d-flex align-items-center justify-content-between p-5 gap-5">
+        <div class="text_hero_section">
+            <h1>Working and <br> Bussiness</h1>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolores, quos recusandae debitis veritatis.</p>
+        </div>
+    </section>  
+
+    <main>
+        <section class="cards d-flex align-items-center justify-content-center ">
+            <div class="card c-1">
+                <img src="https://cdn-icons-png.flaticon.com/512/3094/3094918.png" alt="">
+                <h3>Graphics and<br> Analithis</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda</p>
+            </div>
+            <div class="card c-2">
+                <img src="https://cdn-icons-png.flaticon.com/512/3094/3094918.png" alt="">
+                <h3>Graphics and<br> Analithis</h3>
+                <p>Lorem ipsum dolor, sit amet codolor reprehenderit voluptatem error? Necessitatibus laborum error repudiandae.</p>
+            </div>
+            <div class="card c-3">
+                <img src="https://cdn-icons-png.flaticon.com/512/3094/3094918.png" alt="">
+                <h3>Graphics and<br> Analithis</h3>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit!</p>
+            </div>
+        </section>
+
+        <section id="empresa" class="about">
+            <div class="about_container">
+                <h2>FEITO PARA <br> O SEU NEGÓCIO <br> FLUIR MELHOR</h2>
+                <div class="desc">
+                    <h3>SYSTEM SILVER</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum, sit corrupti iste nam voluptas natus eligendi repellendus a hic? Asperiores sed voluptatibus soluta enim, facere omnis natus cumque itaque modi!</p>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cum natus rem repellat ratione possimus, inventore placeat facilis nihil laboriosam dolores id odio similique, reiciendis, obcaecati est quasi molestias expedita itaque.</p>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Magnam excepturi aspernatur molestiae illum enim aliquid, odit nobis vel. Sapiente voluptatibus eum repellendus voluptates, distinctio a maxime iste suscipit sint aut!</p>
+                </div>
+                <i class="fas fa-spinner"></i>
+            </div>
+        </section>
+
+        <section id="servicos" class="services">
+            <h4>Serviços</h4>
+            <div class="services_container">
+                <div class="service">
+                    <div class="icon">
+                        <i class="fas fa-shield-alt"></i>
+                    </div>
+                    <p>Gestão de Segurança</p>
+                </div>
+                <div class="service">
+                    <div class="icon">
+                        <i class="fas fa-chart-line"></i>
+                    </div>
+                    <p>Análise em gráficos</p>
+                </div>
+                <div class="service">
+                    <div class="icon">
+                        <i class="fas fa-phone-volume"></i>
+                    </div>
+                    <p>Comunicação dinâmica</p>
+                </div>
+                <div class="service">
+                    <div class="icon">
+                        <i class="fas fa-hand-holding-usd"></i>
+                    </div>
+                    <p>Balanço financeiro</p>
+                </div>
+                <div class="service">
+                    <div class="icon">
+                        <i class="fas fa-hands-helping"></i>
+                    </div>
+                    <p>Análise de contrato</p>
+                </div>
+                <div class="service">
+                    <div class="icon">
+                        <i class="fas fa-info"></i>
+                    </div>
+                    <p>Suporte online</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <section id="faq" class="questions">
+        <h4>FAQ</h4>
+        <div class="accordion accordion-flush" id="accordionFlushExample">
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="flush-headingOne">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" >
+                    Quem Somos
+                </button>
+              </h2>
+              <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body">
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsam commodi quos animi non sapiente. Blanditiis, eaque commodi perferendis eos quis eveniet ad aliquid ut, dolore corporis aspernatur a. At, sapiente.
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="flush-headingTwo">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" >
+                  O que fazemos
+                </button>
+              </h2>
+              <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque, repellendus? Dolore quia laboriosam quis iste obcaecati harum odit aut minus sint in repellendus itaque nam ipsa cupiditate, ad blanditiis fuga?</div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="flush-headingThree">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree"  >
+                  Onde nos achar
+                </button>
+              </h2>
+              <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body">Lorem ipsum dolor sit amet consectetur adipisicing elit. Non voluptates consequuntur aliquam. Molestias, delectus ratione dolor reprehenderit qui, totam iste excepturi praesentium deserunt illum corporis autem nulla, doloribus debitis voluptate.</div>
+              </div>
+            </div>
+
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="flush-headingFor">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFor" >
+                    Nossas Políticas
+                  </button>
+                </h2>
+                <div id="flush-collapseFor" class="accordion-collapse collapse" aria-labelledby="flush-headingFor" data-bs-parent="#accordionFlushExample">
+                  <div class="accordion-body">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur ut quibusdam numquam alias voluptates voluptatibus totam nobis dignissimos vel, provident illum repellat optio eveniet itaque mollitia neque temporibus? Repudiandae, delectus.</div>
+                </div>
+              </div>
+          </div>
+    </section>
+    
+    <section id="contato" class="form">
+        <h4>Contato</h4>
+        <form>
+            <label for="name">Nome:</label>
+            <input type="text" class="form-control" name="name">
+            <label for="email">Email:</label>
+            <input type="email" class="form-control" name="email">
+            <label for="message">Mensagem:</label>
+            <textarea name="message" cols="30" rows="5" class="form-control"></textarea>
+            <input type="submit" class="btn btn-info  fw-bold mt-2" value="Enviar">
+        </form>
+    </section>
+
+    <footer>
+        <div class="footer_container">
+            <div class="footer_block">
+                <ul>
+                    <h5>FAQ</h5>
+                    <li>Quem Somos</li>
+                    <li>O que fazemos</li>
+                    <li>Onde nos achar</li>
+                    <li>Nossas Políticas</li>
+                </ul>
+                <ul>
+                    <h5>Serviços</h5>
+                    <li>Análise gráfica</li>
+                    <li>Suporte Online</li>
+                    <li>Balanço financeiro</li>
+                    <li>Gestão de segurança</li>
+                </ul>
+            </div>
+            <div class="footer_block">
+                <ul>
+                    <h5>Empresa</h5>
+                    <li>Negócios</li>
+                    <li>Relatórios</li>
+                    <li>Análise de contrato</li>
+                    <li>Comunicação dinâmica</li>
+                </ul>
+                <ul>
+                    <h5>Contato</h5>
+                    <li>Email</li>
+                    <li>Instagram</li>
+                    <li>Facebook</li>
+                    <li>Whatsapp</li>
+                </ul>
+            </div>
+        </div>
+        <div class="final">
+            &copy; Todos direitos reservados - 2022
+        </div>
+    </footer>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+    <script>
+        function openMenu(){
+            let navigation = document.querySelector('.navigation')
+            navigation.classList.toggle('active')
+        }
+    </script>
+</body>
+</html>
